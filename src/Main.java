@@ -31,6 +31,15 @@ public class Main {
         System.out.println("Сума додатніх: " + sum);
         System.out.println("Кількість від'ємних" + count);
     }
-
+    static void Task3(){
+        Scanner in = new Scanner(System.in);
+        int count = 0;
+        System.out.println("Введіть рядок:");
+        String str = in.next();
+        for (char c : str.toCharArray()) {
+            if (Character.isUpperCase(c)) count++;
+        }
+        System.out.println("Кількість великих літер");
+    }
 
 }
