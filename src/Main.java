@@ -9,7 +9,7 @@ public class Main {
             n = in.nextInt();
             switch (n){
                 case 1 -> Task1();
-                //case 2 -> Task2();
+                case 2 -> Task2();
             }
             System.out.println();
         } while(n != 0);
